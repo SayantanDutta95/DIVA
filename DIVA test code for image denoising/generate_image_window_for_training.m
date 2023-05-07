@@ -51,8 +51,7 @@ for i = 1 : nImages
     [h, w] = size(image);
     for k = 0: (fix( (h-window_size)/stride) )
         for l = 0: (fix( (w-window_size)/stride) )
-            img(:,:) = image( (1+k*stride):(window_size+k*stride), ...
-                           (1+l*stride):(window_size+l*stride) );            
+            img(:,:) = image( (1+k*stride):(window_size+k*stride), (1+l*stride):(window_size+l*stride) );            
             
             j = j + 1;
             % save image window

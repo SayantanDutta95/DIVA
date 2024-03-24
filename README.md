@@ -1,6 +1,6 @@
 # DIVA (Deep denoising by quantum InteractiVe pAtches)
 
-This paper presents a deep neural network called DIVA unfolding a baseline adaptive denoising algorithm (De-QuIP), relying on the theory of quantum many-body physics.
+This paper presents a deep neural network called DIVA unfolding a baseline adaptive denoising algorithm (DeQuIP) [see the DeQuIP_flow.pdf for a basic working principle], relying on the theory of quantum many-body physics.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
